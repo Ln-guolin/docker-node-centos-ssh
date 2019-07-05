@@ -20,7 +20,7 @@ docker-compose.yml
 version: "3"
 services:
   node:
-      image: guolin123/node:centos7-ssh
+      image: guolin123/node:12.x-centos7-ssh
       restart: unless-stopped
       container_name: node
       ports:
